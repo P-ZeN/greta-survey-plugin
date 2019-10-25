@@ -1,0 +1,162 @@
+.gretas_test {
+    border: 3px solid #f90;
+}
+
+table.gretas_list_stagiaires.fixed,
+table.gretas_list_reponses.fixed {
+    table-layout: auto !important;
+    white-space: nowrap !important;
+}
+
+table.fixed.gretas_list_stagiaires td,
+table.gretas_list_reponses td {
+    white-space: nowrap !important;
+    min-width: 90px;
+}
+
+p.gretas_debug {
+    font-size: 12px;
+    font-style: italic;
+}
+
+p.gretas_debug:first-of-type {
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+p.gretas_debug:last-of-type {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+fieldset {
+    border: none !important
+}
+
+:disabled {
+    background-color: #f9f9f9 !important;
+}
+
+button:disabled,
+input:disabled,
+textarea:disabled {
+    background-color: #f6f6f6 !important;
+}
+
+.notice {
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .1);
+    margin: 10px 0;
+    padding: 1px 12px;
+}
+
+.notice p {
+    margin-top: 12px;
+    vertical-align: bottom;
+}
+
+.notice-success {
+    border-left-color: #46b450;
+}
+
+.notice-error {
+    border-left-color: #dc3232;
+    ;
+}
+
+span.gretas-dashicons {
+    vertical-align: text-top !important;
+}
+
+h1 span.gretas-dashicons {
+    vertical-align: middle !important;
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 30px !important;
+}
+
+.column-col_reponse_status {
+    text-align: center !important;
+}
+
+.column-col_reponse_status a {
+    display: inline-block !important;
+}
+
+.vert {
+    color: #46b450;
+}
+
+
+/**
+* Radios labels
+*/
+
+.radio-label-vertical-wrapper {
+    padding-bottom: 13px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+/*.radio-label-vertical-wrapper:before {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #efefef;
+    position: absolute;
+    bottom: 0;
+}*/
+
+.radio-label-vertical-wrapper label:not(.radio-label-vertical) {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.radio-label-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.radio-label-vertical input {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    margin-left: -6px;
+    display: block;
+    cursor: pointer;
+}
+
+label.evaluation_1,
+.evaluation_1 input {
+    background-color: #0F0;
+}
+
+label.evaluation_2,
+.evaluation_2 input {
+    background-color: #9F9;
+}
+
+label.evaluation_3,
+.evaluation_3 input {
+    background-color: #fF0;
+}
+
+label.evaluation_4,
+.evaluation_4 input {
+    background-color: #fc6;
+}
+
+label.evaluation_5,
+.evaluation_5 input {
+    background-color: #F00;
+}
